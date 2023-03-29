@@ -1,0 +1,178 @@
+@media (max-width:940px) {
+	.header-container {
+		padding: 0px 20px;
+	}
+
+	.header-advants-list {
+		padding: 0px 20px;
+	}
+
+	.footer {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media (max-width: 900px) {
+	.header__menu-link {
+		font-size: 14px;
+	}
+
+	.user-link {
+		font-size: 14px;
+	}
+
+	.header-advants-title {
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+
+	.advants-list-decor {
+		width: 20px;
+		height: 20px;
+	}
+
+	.header-advants-text {
+		margin-top: 40px;
+	}
+
+	.news-title {
+		font-size: 26px;
+	}
+
+	.contacts-title {
+		font-size: 26px;
+	}
+
+	.form-title {
+		font-size: 26px;
+	}
+
+}
+
+@media (max-width: 830px) {
+	.contacts {
+		padding-left: 20px;
+	}
+
+	.news {
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.news {
+		flex-direction: column;
+		gap: 60px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.news-title {
+		text-align: center;
+	}
+
+	.btn-media {
+		margin: 0 auto;
+	}
+
+	.date-media {
+		display: block;
+		padding-bottom: 20px;
+	}
+
+	.contacts {
+		flex-direction: column;
+		gap: 60px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.form-title {
+		text-align: center;
+	}
+
+	.footer {
+		height: 100%;
+	}
+
+	.footer-box {
+		flex-direction: column;
+		align-items: center;
+		gap: 40px;
+	}
+
+	.social {
+		margin-right: 0;
+	}
+
+	.footer-text {
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.dev a {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 670px) {
+	.header__menu-list {
+		display: block;
+	}
+
+	.header__menu {
+		padding-top: 15px;
+	}
+
+	.header__burger-btn {
+		display: block;
+	}
+
+	.header__menu-list {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: #000;
+		height: 100vh;
+		width: 100%;
+		left: -100%;
+		z-index: 10;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		padding-top: 40px;
+		transition: 0.5s;
+	}
+
+	.header__menu-link {
+		font-size: 20px;
+	}
+
+	.header.open .header__menu-list {
+		transform: translateX(100%);
+	}
+}
+
+
+@media (max-width: 550px) {
+	.header-advants-list {
+		flex-direction: column;
+		align-items: center;
+		gap: 0px;
+	}
+
+	.header-advants-text {
+		width: 200px;
+	}
+
+	.contacts {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.news {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
